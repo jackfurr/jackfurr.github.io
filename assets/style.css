@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+body {
+    margin: 1em;
+    background-color: #ecf0f1;
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a, a:visited {
+    color: #2980b9;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+body>header {
+    padding: 1em;
+    border: solid 1px #ddd;
+    max-width: 900px;
+    min-width: 260px;
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body>header li {
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+body>nav {
+    border: solid 1px #ddd;
+    max-width: 900px;
+    min-width: 260px;
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body>nav li {
+    padding: 0 10px;
+    margin: 0;
+    display: inline-block;
+    font-size: 0.8em;
+    height: 30px;
+    margin-top: 0.5em;
+}
+
+body>section {
+    border: solid 1px #ddd;
+    max-width: 900px;
+    min-width: 260px;
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 5px;
+}
+
+body>section>header {
+    padding: 1em;
+    border-bottom: solid 1px #ddd;
+}
+
+body>section>article {
+    max-width: 445px;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+body>section>article>header {
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+body>section>article>header>img {
+    max-height: 64px;
+    max-width: 64px;
+    float: right;
+}
+
+body>section>article>p {
+    padding: 0 1em 1em 1em;
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
+
+body>section>article ul {
+    padding: 0 1em 1em 1em;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+body>section>article>h4 {
+    padding: 0 1em 1em 1em;
+}
+
+body>section>article>footer {
+    padding: 1em;
+}
+
+#employment>article>footer>span {
+    color: #39739d;
+    background-color: #E1ECF4;
+    border-color: transparent;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    transition: all .15s ease-in-out;
+}
+
+.splash {
+    height: 400px;
+    width: 100%;
+}
+
+body>section>article.event {
+    width: 50%;
+}
+
+body>section>article.event>p {
+    padding: 0 1em 0.4em;
+}
+
+#intro {
+    padding: 1em;
+}
+
+#intro h3 {
+    padding-bottom: 10px;
+}
+
+#intro p {
+    padding-bottom: 0.5em;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media print {
+    html {
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        font-size: 10pt;
+    }
+    body {
+        margin: 0;
+        background-color: white;
+    }
+    body>header {
+        padding: 1em;
+        border: 0;
+        width: 100%;
+        text-align: center;
+    }
+    body>nav {
+        border: 0;
+        border-bottom: solid 1pt #ccc;
+        border-radius: 0;
+        width: 100%;
+        text-align: center;
+    }
+    body>section {
+        padding: 0 1em;
+        border: 0;
+        width: 100%;
+    }
+    body>section>header {
+        padding: 1em 0;
+        border-bottom: solid 1pt #ccc;
+    }
+    body>section>article {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        display: block;
+    }
+    body>section>article>header {
+        padding: 1em 0;
+        line-height: 1.5em;
+    }
+    body>section>article>p {
+        padding: 0 0 1em 0;
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    body>section>article ul {
+        padding: 0 0 1em 0;
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    body>section>article>h4 {
+        padding: 0 0 1em 0;
+    }
+    body>section>article>footer {
+        padding: 0 0 1em 0;
+    }
+}
