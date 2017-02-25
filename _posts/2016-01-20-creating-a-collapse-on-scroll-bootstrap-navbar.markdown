@@ -5,6 +5,7 @@ subtitle:   "Using the Built In Bootstrap Affix Plugin"
 date:       2016-01-20 13:00:00
 author:     "David Miller"
 header-img: "img/post-bg-01.jpg"
+comments: true
 ---
 
 <div class="row">
